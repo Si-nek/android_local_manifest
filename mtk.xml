@@ -13,7 +13,7 @@
   <project path="vendor/jiayu/s3_h560" name="sandstranger/android_vendor_jiayu_s3_h560" revision="lineage-15.0" />
   <project path="vendor/mad" name="sandstranger/android_vendor_mad" revision="lineage-15.0" />
   <project path="kernel/jiayu/s3_h560" name="sandstranger/android_kernel_jiayu_s3_h560" revision="android-8" />
-  <project path="vendor/mediatek" name="Moyster/o_vendor_mediatek" revision="los-15.0" />
+  <project path="vendor/mediatek" name="sandstranger/o_vendor_mediatek" revision="los-15.0" />
   <project path="hardware/interfaces" name="sandstranger/android_hardware_interfaces_mtk" revision="lineage-15.0" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.0" />
