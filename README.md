@@ -1,1 +1,1 @@
-Local manifest for Jiayu s3 (Aicp 13.0) 
+Local manifest for Jiayu s3 (Lineage os 15.0) 
