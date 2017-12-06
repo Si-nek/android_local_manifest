@@ -19,7 +19,7 @@
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.0" />
   <project path="packages/apps/FMRadio" name="sandstranger/android_packages_apps_FMRadio" revision="lineage-15.0" />
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.0" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery-twrp" name="sandstranger/android_bootable_recovery" remote="github" revision="android-8.0" groups="pdk-cw-fs"/>
   <project path="frameworks/base" name="sandstranger/android_frameworks_base" groups="pdk" />
   <project path="bionic" name="sandstranger/android_bionic_mtk" groups="pdk"/>
   <project path="system/core" name="sandstranger/android_system_core_mtk" groups="pdk"/>
