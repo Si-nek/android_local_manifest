@@ -9,7 +9,6 @@
   <remove-project name="LineageOS/android_packages_apps_Nfc"/>
   <remove-project name="LineageOS/android_frameworks_native" />
 
-  <project path="external/busybox" name="sandstranger/android_external_busybox" revision="android-8.0" />
   <project path="device/jiayu/s3_h560" name="sandstranger/android_device_jiayu_s3_h560" revision="los-15" />
   <project path="vendor/jiayu/s3_h560" name="sandstranger/android_vendor_jiayu_s3_h560" revision="lineage-15.0" />
   <project path="vendor/mad" name="sandstranger/android_vendor_mad" revision="lineage-15.0" />
