@@ -1,10 +1,32 @@
-Local manifest for Jiayu s3 (Lineage os 15.0) 
+Local manifest for Jiayu s3 (Official Resurrection Remix android 7.1.2) 
 
 Getting Started
 
-Initialize a repository with LineageOS:
+Make directory for the repo binary
 
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+  $ mkdir ~/bin
+
+Add directory for the repo binary to its path
+
+  $ PATH=~/bin:$PATH
+
+Downloading repo binary and placing it in the proper directory
+
+  $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+Giving the repo binary the proper permissions
+
+  $ chmod a+x ~/bin/repo
+
+Creating directory for where the RR repo will be stored and synced
+
+  $ mkdir ~/RR
+  $ cd ~/RR
+
+Initializing the RR repo and downloading the manifest
+
+  $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat
+
 
 Copy "mtk.xml" under android_src/.repo/local_manifests
 
