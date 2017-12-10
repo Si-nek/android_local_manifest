@@ -28,7 +28,7 @@ Initializing the RR repo and downloading the manifest
   $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat
 
 
-Copy "mtk.xml" under android_src/.repo/local_manifests
+Copy "mtk.xml" under RR/.repo/local_manifests
 
 repo sync -j7
 
